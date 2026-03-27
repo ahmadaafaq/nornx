@@ -9,10 +9,12 @@ export function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: 
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-foreground/10 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
-            <div className="w-4 h-4 bg-background rounded-sm" />
-          </div>
-          <span className="font-mono font-bold text-xl tracking-tighter">NORNX</span>
+          <a href="/">
+            <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
+              <div className="w-4 h-4 bg-background rounded-sm" />
+            </div>
+            <span className="font-mono font-bold text-xl tracking-tighter">NORNX</span>
+          </a>
         </div>
 
         {/* Desktop Nav */}
