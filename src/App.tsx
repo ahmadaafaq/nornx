@@ -13,7 +13,7 @@ import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
 
 export default function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     if (isDark) {
