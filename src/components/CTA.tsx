@@ -25,11 +25,11 @@ export function CTA() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="mailto:contact@nornx.com" className="px-5 py-3 md:px-6 md:py-3.5 bg-primary text-background font-bold rounded-sm hover:bg-primary-dark transition-colors font-mono tracking-tight flex items-center justify-center gap-2 group text-sm">
+              <a href="mailto:support@nornx.com" className="px-5 py-3 md:px-6 md:py-3.5 bg-primary text-background font-bold rounded-sm hover:bg-primary-dark transition-colors font-mono tracking-tight flex items-center justify-center gap-2 group text-sm">
                 START WITH A CONSULTATION
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
               </a>
-              <a href="mailto:contact@nornx.com?subject=Build My Business OS" className="px-5 py-3 md:px-6 md:py-3.5 bg-foreground/5 border border-foreground/10 text-foreground font-bold rounded-sm hover:bg-foreground/10 transition-colors font-mono tracking-tight flex items-center justify-center text-sm">
+              <a href="mailto:support@nornx.com?subject=Build My Business OS" className="px-5 py-3 md:px-6 md:py-3.5 bg-foreground/5 border border-foreground/10 text-foreground font-bold rounded-sm hover:bg-foreground/10 transition-colors font-mono tracking-tight flex items-center justify-center text-sm">
                 BUILD YOUR BUSINESS OS
               </a>
             </div>

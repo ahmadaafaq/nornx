@@ -98,10 +98,10 @@ export function Hero({ isDark }: { isDark?: boolean }) {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <a href="mailto:contact@nornx.com" className="px-5 py-3 md:px-6 md:py-3.5 bg-primary text-background font-bold rounded-sm hover:bg-primary-dark transition-colors font-mono tracking-tight text-center text-sm">
+          <a href="mailto:support@nornx.com" className="px-5 py-3 md:px-6 md:py-3.5 bg-primary text-background font-bold rounded-sm hover:bg-primary-dark transition-colors font-mono tracking-tight text-center text-sm">
             BOOK A STRATEGY CALL
           </a>
-          <a href="mailto:contact@nornx.com?subject=Build My Business OS" className="px-5 py-3 md:px-6 md:py-3.5 bg-foreground/5 border border-foreground/10 text-foreground font-bold rounded-sm hover:bg-foreground/10 transition-colors font-mono tracking-tight text-center text-sm">
+          <a href="mailto:support@nornx.com?subject=Build My Business OS" className="px-5 py-3 md:px-6 md:py-3.5 bg-foreground/5 border border-foreground/10 text-foreground font-bold rounded-sm hover:bg-foreground/10 transition-colors font-mono tracking-tight text-center text-sm">
             BUILD YOUR SYSTEM
           </a>
         </motion.div>

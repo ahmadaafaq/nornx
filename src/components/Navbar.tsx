@@ -9,7 +9,7 @@ export function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: 
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-foreground/10 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <a href="/">
+          <a href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
               <div className="w-4 h-4 bg-background rounded-sm" />
             </div>
@@ -28,7 +28,7 @@ export function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: 
             {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
           </button>
 
-          <a href="mailto:contact@nornx.com" className="px-4 py-2 xl:px-5 xl:py-2.5 bg-foreground/5 hover:bg-foreground/10 border border-foreground/10 rounded-sm text-foreground transition-all text-xs xl:text-sm font-bold">
+          <a href="mailto:support@nornx.com" className="px-4 py-2 xl:px-5 xl:py-2.5 bg-foreground/5 hover:bg-foreground/10 border border-foreground/10 rounded-sm text-foreground transition-all text-xs xl:text-sm font-bold">
             BOOK STRATEGY CALL
           </a>
         </div>
@@ -58,7 +58,7 @@ export function Navbar({ isDark, toggleTheme }: { isDark: boolean, toggleTheme: 
           <a href="#products" className="text-muted hover:text-primary" onClick={() => setIsOpen(false)}>PRODUCTS</a>
           <a href="#cortex" className="text-muted hover:text-primary" onClick={() => setIsOpen(false)}>CORTEX.IO</a>
           <a href="#process" className="text-muted hover:text-primary" onClick={() => setIsOpen(false)}>PROCESS</a>
-          <a href="mailto:contact@nornx.com" className="mt-4 px-5 py-3 bg-primary text-background font-bold rounded-sm w-full text-center block">
+          <a href="mailto:support@nornx.com" className="mt-4 px-5 py-3 bg-primary text-background font-bold rounded-sm w-full text-center block">
             BOOK STRATEGY CALL
           </a>
         </motion.div>
