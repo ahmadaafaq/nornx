@@ -29,12 +29,12 @@ export function WhatWeDo() {
     <section className="py-16 md:py-24 bg-background relative overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="mb-12 md:mb-20">
-          <p className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Core Offering</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter mb-6">
+          <h2 className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Core Offering</h2>
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter mb-6">
             We Engineer <span className="text-gradient">Ecosystems.</span>
-          </h2>
+          </h3>
           <p className="text-lg text-muted max-w-2xl">
-            Nornx Technologies designs AI-powered systems, automation workflows, and scalable tech infrastructure that transform how your business operates.
+            Nornx Technologies doesn't just build isolated tools. We design, deploy, and scale unified business infrastructures powered by AI and automation.
           </p>
         </div>
 

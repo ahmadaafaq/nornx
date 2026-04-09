@@ -7,10 +7,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pb-12 border-b border-foreground/10">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-primary rounded-sm flex items-center justify-center">
-                <div className="w-3 h-3 bg-background rounded-sm" />
-              </div>
-              <span className="font-mono font-bold text-lg tracking-tighter">NORNX</span>
+              <img 
+                src="/logo.png" 
+                alt="NORNX Logo" 
+                className="h-10 w-auto"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <p className="text-sm text-muted font-mono max-w-xs">
               Designing the future of business operations through intelligent systems and automation.
@@ -29,7 +31,7 @@ export function Footer() {
             <h4 className="font-mono font-bold text-sm tracking-tight text-foreground">FOLLOW</h4>
             <div className="flex gap-6 text-sm font-mono text-muted">
               <a href="#" className="hover:text-primary transition-colors">LINKEDIN</a>
-              <a href="#" className="hover:text-primary transition-colors">TWITTER</a>
+              <a href="https://twitter.com/NornxTech" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">TWITTER</a>
             </div>
           </div>
         </div>

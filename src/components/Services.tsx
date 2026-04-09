@@ -35,10 +35,10 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start mb-16 md:mb-24 gap-8">
           <div>
-            <p className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Expertise</p>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
+            <h2 className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Expertise</h2>
+            <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
               Structured & <br /> High-Value Services
-            </h2>
+            </h3>
           </div>
           <p className="text-lg text-muted max-w-md md:mt-12">
             We deliver deep technical execution combined with strategic insight to build systems that scale from day one.
