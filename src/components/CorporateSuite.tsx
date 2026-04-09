@@ -26,9 +26,9 @@ export function CorporateSuite() {
                 <ShieldCheck className="w-4 h-4" />
                 CORPORATE SUITE
               </div>
-              <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
                 CorteX.io
-              </h3>
+              </h2>
               <p className="text-lg md:text-xl text-primary font-mono mb-4 md:mb-6">
                 AI-Powered Business Operations Suite
               </p>

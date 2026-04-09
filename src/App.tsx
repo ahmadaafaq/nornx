@@ -11,6 +11,7 @@ import { UseCases } from './components/UseCases';
 import { Vision } from './components/Vision';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
+import { SEO } from './components/SEO';
 
 export default function App() {
   const [isDark, setIsDark] = useState(false);
@@ -25,6 +26,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-background transition-colors duration-300">
+      <SEO />
       <Navbar isDark={isDark} toggleTheme={() => setIsDark(!isDark)} />
       <main>
         <Hero isDark={isDark} />

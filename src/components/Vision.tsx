@@ -15,10 +15,10 @@ export function Vision() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h2 className="text-sm font-mono text-primary mb-8 tracking-widest uppercase">Our Vision</h2>
-          <p className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[1.1] max-w-5xl mx-auto">
+          <p className="text-sm font-mono text-primary mb-8 tracking-widest uppercase">Our Vision</p>
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter leading-[1.1] max-w-5xl mx-auto">
             "Building the <span className="text-gradient-primary">infrastructure layer</span> for next-generation businesses powered by AI."
-          </p>
+          </h2>
         </motion.div>
       </div>
     </section>

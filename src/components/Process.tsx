@@ -99,10 +99,10 @@ export function Process({ isDark }: { isDark?: boolean }) {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16 md:mb-24">
-          <h2 className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Methodology</h2>
-          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
+          <p className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Methodology</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
             The Nornx <span className="text-gradient">Process.</span>
-          </h3>
+          </h2>
           <p className="text-base md:text-lg text-muted max-w-2xl mx-auto">
             A systematic approach to transforming how your business operates.
           </p>

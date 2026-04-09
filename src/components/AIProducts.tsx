@@ -81,10 +81,10 @@ export function AIProducts({ isDark }: { isDark?: boolean }) {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-12 md:mb-20">
-          <h2 className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Our AI Products</h2>
-          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
+          <p className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Our AI Products</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-6">
             Next-Generation <span className="text-gradient">AI Solutions.</span>
-          </h3>
+          </h2>
           <p className="text-lg text-muted max-w-2xl mx-auto">
             Purpose-built artificial intelligence platforms designed to automate, optimize, and scale your business operations.
           </p>

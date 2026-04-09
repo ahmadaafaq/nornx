@@ -29,10 +29,10 @@ export function UseCases() {
     <section id="use-cases" className="py-16 md:py-24 bg-background relative transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16 md:mb-20">
-          <h2 className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Who It's For</h2>
-          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
+          <p className="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Who It's For</p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4 md:mb-6">
             Built for <span className="text-gradient">Scale.</span>
-          </h3>
+          </h2>
           <p className="text-base md:text-lg text-muted max-w-2xl mx-auto">
             Our systems adapt to your stage of growth, providing the infrastructure needed to operate with precision.
           </p>
